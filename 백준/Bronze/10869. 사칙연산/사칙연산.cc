@@ -1,10 +1,8 @@
-#include <iostream>
-
-using namespace std;
+#include <stdio.h>
 
 int main()
 {
 	int a, b;
-    cin >> a >> b;
-    cout << a+b << '\n' <<  a-b << '\n' << a*b << '\n' << a/b << '\n' << a%b;
+	scanf("%d%d", &a, &b);
+	printf("%d\n%d\n%d\n%d\n%d", a + b, a - b, a*b, a / b, a%b);
 }
